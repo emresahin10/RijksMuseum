@@ -56,10 +56,6 @@ Upon starting the application, users can view artworks from the Rijksmuseum coll
 
 This application utilizes the [Rijksmuseum API](https://data.rijksmuseum.nl). You can refer to the API documentation for more information.
 
-## Contribution
-
-Thank you for considering contributing to this project. If you have any questions, find bugs, or have suggestions, please check the [contribution guide](CONTRIBUTING.md).
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE). See the license file for details.
