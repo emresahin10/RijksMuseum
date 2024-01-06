@@ -27,6 +27,7 @@ okhttp = "4.12.0"
 retrofit = "2.9.0"
 retrofitKotlinxSerializationJson = "1.0.0"
 secrets = "2.0.1"
+material = "1.11.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -83,6 +84,7 @@ lint-tests = { group = "com.android.tools.lint", name = "lint-tests", version.re
 okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
 retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit-kotlin-serialization = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "retrofitKotlinxSerializationJson" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
