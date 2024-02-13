@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Rijks Museum"
 include(":app")
- 
+include(":build-logic")
+include(":build-logic:convention")
