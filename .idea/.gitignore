@@ -9,4 +9,5 @@
 /misc.xml
 /vcs.xml
 /inspectionProfiles/Project_Default.xml
-/.name
+/.name# GitHub Copilot persisted chat sessions
+/copilot/chatSessions
