@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "emresahin.rijksmuseum.convention"
+    namespace = "github.emresahin.rijksmuseum.convention"
     compileSdk = 34
 
     defaultConfig {

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "emresahin.rijksmuseum.buildlogic"
+    namespace = "github.emresahin.rijksmuseum.buildlogic"
     compileSdk = 34
 
     defaultConfig {

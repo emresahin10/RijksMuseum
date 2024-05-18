@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "emresahin.rijksmuseum"
+    namespace = "github.emresahin.rijksmuseum"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "emresahin.rijksmuseum"
+        applicationId = "github.emresahin.rijksmuseum"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

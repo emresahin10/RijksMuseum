@@ -1,4 +1,4 @@
-package emresahin.rijksmuseum.ui.theme
+package github.emresahin.rijksmuseum.ui.theme
 
 import android.app.Activity
 import android.os.Build

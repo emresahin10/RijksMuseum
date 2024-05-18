@@ -1,4 +1,4 @@
-package emresahin.rijksmuseum
+package github.emresahin.rijksmuseum
 
 import org.junit.Test
 
