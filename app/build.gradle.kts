@@ -50,6 +50,13 @@ android {
     }
 }
 
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+    compilerOptions.freeCompilerArgs.addAll(
+        "-P",
+        "plugin:androidx.compose.compiler.plugins.kotlin:strongSkipping=true",
+    )
+}
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -60,6 +67,7 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.material3)
+    implementation(libs.kotlinx.collections.immutable)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.androidx.test.espresso.core)
